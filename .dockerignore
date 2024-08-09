@@ -1,0 +1,21 @@
+# Node modules should not be copied into the Docker image
+node_modules
+npm-debug.log
+
+# Build output directory (e.g., if you use a build tool like Webpack)
+dist
+build
+
+# Environment files (e.g., .env files with sensitive data)
+.env
+
+# Dockerfile and .dockerignore themselves (if you don't want them in the image)
+Dockerfile
+.dockerignore
+
+# Git files and folders
+.git
+.gitignore
+
+# Other files you don't want in the image
+*.md
