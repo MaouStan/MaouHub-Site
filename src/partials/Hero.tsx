@@ -21,7 +21,7 @@ const Hero = () => (
           <br />
           💻 I love writing code and learn anything about it
           <br />
-          📚 I’m currently learning Game Hacking
+          📚 I’m currently learning TrOCR
           <br />
           💬 Ask me anything about from,{' '}
           <a
