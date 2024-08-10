@@ -23,7 +23,13 @@ const Hero = () => (
           <br />
           📚 I’m currently learning Game Hacking
           <br />
-          💬 Ask me anything about from Here
+          💬 Ask me anything about from,{' '}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://github.com/MaouStan/MaouStan/issues"
+          >
+            Here
+          </a>{' '}
         </>
       }
       avatar={
