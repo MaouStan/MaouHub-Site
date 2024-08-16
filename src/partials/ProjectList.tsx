@@ -15,52 +15,36 @@ const ProjectList = () => (
     }
   >
     <div className="flex flex-col gap-6">
-      <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+    <Project
+        name="Anime Mash (2023)"
+        description="An interactive web application inspired by Facemash, focusing on anime characters. Users vote for their favorite characters in head-to-head comparisons to determine the most popular ones in the anime world."
+        link="https://github.com/MaouStan/Angular-AllStar"
         img={{
-          src: '/assets/images/project-web-design.png',
-          alt: 'Project Web Design',
+          src: 'https://github.com/MaouStan/Angular-AllStar/raw/main/banner.jpg',
+          alt: 'Anime Mash Banner',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.RED}>Angular</Tags>
+            <Tags color={ColorTags.GREEN}>Node.js</Tags>
+            <Tags color={ColorTags.BLUE}>TypeScript</Tags>
+            <Tags color={ColorTags.PURPLE}>Firebase</Tags>
           </>
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        name="Galaxy Wars (2023)"
+        description="A space-themed shooting game developed as an OOP learning project. Defend your planet by shooting meteors, collect power-ups, and progress through increasingly difficult levels."
+        link="https://github.com/MaouStan/GalaxyWars"
+        img={{
+          src: 'https://github.com/MaouStan/GalaxyWars/raw/master/res/images/icon.jpg',
+          alt: 'Galaxy Wars Game',
+        }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
-          </>
-        }
-      />
-      <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
-        category={
-          <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.VIOLET}>Java</Tags>
+            <Tags color={ColorTags.EMERALD}>OOP</Tags>
+            <Tags color={ColorTags.YELLOW}>Game Dev</Tags>
           </>
         }
       />
