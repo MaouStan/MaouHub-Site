@@ -27,6 +27,7 @@ const ProjectList = () => (
           <>
             <Tags color={ColorTags.RED}>Angular</Tags>
             <Tags color={ColorTags.GREEN}>Node.js</Tags>
+            <Tags color={ColorTags.INDIGO}>MySQL</Tags>
             <Tags color={ColorTags.BLUE}>TypeScript</Tags>
             <Tags color={ColorTags.PURPLE}>Firebase</Tags>
           </>
