@@ -1,0 +1,2 @@
+docker build -t maouhub-site .
+docker run -d -p 80:80 --name maouhub-container maouhub-site

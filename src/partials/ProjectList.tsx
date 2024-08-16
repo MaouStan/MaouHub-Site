@@ -48,6 +48,24 @@ const ProjectList = () => (
           </>
         }
       />
+            <Project
+        name="Pizza Shop Website (2022)"
+        description="A web-based pizza ordering system developed for a Web Development course. Features user authentication, menu browsing, shopping cart, order placement, payment processing, order history, and an admin dashboard."
+        link="https://github.com/MaouStan/PizzaShop"
+        img={{
+          src: 'https://raw.githubusercontent.com/MaouStan/PizzaShop/main/gitResources/3-Pizza_User_Menu.png',
+          alt: 'Pizza Shop Website',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.BLUE}>PHP</Tags>
+            <Tags color={ColorTags.ORANGE}>HTML</Tags>
+            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+            <Tags color={ColorTags.INDIGO}>MySQL</Tags>
+            <Tags color={ColorTags.SLATE}>Docker</Tags>
+          </>
+        }
+      />
     </div>
   </Section>
 );
