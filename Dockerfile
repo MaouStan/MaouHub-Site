@@ -9,7 +9,6 @@ RUN apt-get update && apt-get install -y git
 
 # Clone the repository (no cache)
 ARG CACHEBUST=1
-RUN echo "CACHEBUST: $(date +%s)"
 RUN git clone https://github.com/MaouStan/MaouHub-Site.git .
 
 # Install dependencies
