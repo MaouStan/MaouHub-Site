@@ -66,6 +66,23 @@ const ProjectList = () => (
           </>
         }
       />
+            <Project
+        name="Lucky Flame (2022)"
+        description="Collaborated with Pcampus Studio on Project Lucky Flame, a real-world project where I took full responsibility for both front-end and back-end development. The website offers various discounts and promotions for users."
+        link="https://momdishcount.com/"
+        img={{
+          src: '/assets/images/LuckFlame-Banner.jpg', // Replace with actual image path
+          alt: 'Lucky Flame Project',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.BLUE}>Next.js</Tags>
+            <Tags color={ColorTags.INDIGO}>TypeScript</Tags>
+            <Tags color={ColorTags.ORANGE}>Firebase</Tags>
+            <Tags color={ColorTags.RED}>Firestore</Tags>
+          </>
+        }
+      />
     </div>
   </Section>
 );
