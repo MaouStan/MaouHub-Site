@@ -17,12 +17,12 @@ const Hero = () => (
         <>
           Hi, I'm Maoustan, Software Developer from Thailand
           <br />
-          🔬 I'm currently studying for my bachelor at Mahasarakham University
+          🔬 I'm currently studying for my bachelor's in Computer Science at Mahasarakham University
           <br />
           💻 I love writing code and learn anything about it
           <br />
-          📚 I’m currently learning TrOCR
-          <br />
+          {/* 📚 I'm currently learning TrOCR */}
+          {/* <br /> */}
           💬 Ask me anything about from,{' '}
           <a
             className="text-cyan-400 hover:underline"
