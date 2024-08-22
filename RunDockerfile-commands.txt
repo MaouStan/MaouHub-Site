@@ -1,2 +1,7 @@
+# Stop and remove existing container if it exists
+docker stop maouhub-site || true
+docker rm maouhub-site || true
+
+# Build and run the new container
 docker build -t maouhub-site .
-docker run -d -p 80:80 --name maouhub-container maouhub-site
+docker run -d -p 80:80 --name maouhub-site maouhub-site
