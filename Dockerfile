@@ -8,8 +8,8 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository (no cache)
-ARG CACHEBUST=1
-RUN git clone https://github.com/MaouStan/MaouHub-Site.git .
+ARG CACHEBUST=8
+RUN git clone https://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@github.com/MaouStan/MaouHub-Site.git .
 
 # Install dependencies
 RUN npm install
