@@ -13,6 +13,22 @@ As part of my Web Development course at Mahasarakham University, I had the oppor
 
 The Pizza Shop website is a comprehensive system that allows users to browse a menu, place orders, and track their order history. It also includes an admin interface for managing the shop. This project showcases the practical application of web development skills in creating a real-world e-commerce solution.
 
+## Try the Live Demo
+
+Experience the Pizza Shop project firsthand! We've deployed a live demo of the website for you to explore:
+
+[Pizza Shop Live Demo](https://pizza.maouhub.com/)
+
+### Accouts
+- User
+  - email: john@example.com
+  - password: 1234
+- Admin
+  - email: jane@example.com
+  - password: 1234
+
+Feel free to browse the menu, add items to your cart, and explore the various features we've implemented. This demo provides a hands-on experience of the user interface and functionality we've developed.
+
 ## Key Features
 
 1. User Authentication
@@ -105,3 +121,5 @@ The Pizza Shop project was an excellent opportunity to apply web development con
 The use of PDO, PDO_MySQL, GD, and MySQLi extensions significantly enhanced our project's capabilities, allowing us to create a more robust, secure, and visually appealing website. These technologies provided us with valuable experience in handling databases securely, processing images, and managing complex data operations.
 
 This project not only enhanced our technical skills but also gave us valuable experience in project management and teamwork. The challenges we faced and overcame throughout the development process have prepared us for future web development projects.
+
+Don't forget to check out the [live demo](https://pizza.maouhub.com/) to see the Pizza Shop in action!
