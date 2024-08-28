@@ -67,7 +67,8 @@ Want to experience Galaxy Wars for yourself? You can download the game using the
 To play:
 1. Download the ZIP file
 2. Extract the contents
-3. Run the executable file to start the game
+3. Open Command Prompt and navigate to the extracted folder
+4. Run the `java --enable-preview -jar .\GalaxyWars.jar` file to start the game
 
 Enjoy defending your planet from the meteor onslaught!
 
