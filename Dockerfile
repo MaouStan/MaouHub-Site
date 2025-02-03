@@ -4,12 +4,15 @@ FROM node:18 AS build
 # Set the working directory
 WORKDIR /app
 
-# Install git
-RUN apt-get update && apt-get install -y git
 
+# Install git
+# RUN apt-get update && apt-get install -y git
 # Clone the repository (no cache)
-ARG CACHEBUST=8
-RUN git clone https://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@github.com/MaouStan/MaouHub-Site.git .
+# ARG CACHEBUST=02032025130156
+# RUN git clone https://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@github.com/MaouStan/MaouHub-Site.git .
+
+# Copy
+COPY . .
 
 # Install dependencies
 RUN npm install

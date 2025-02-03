@@ -10,12 +10,12 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>MaouStan</GradientText> 👋
+          Hi there, I'm <GradientText>Phothiphong Meethonglang</GradientText> 👋
         </>
       }
       description={
         <>
-          Hi, I'm Maoustan, Software Developer from Thailand
+          Hi, I'm Phothiphong Meethonglang, Developer from Thailand
           <br />
           🔬 I'm currently studying for my bachelor's in Computer Science at Mahasarakham University
           <br />
